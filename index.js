@@ -14,4 +14,4 @@ VueSilentbox.install = function(Vue, options) {
   })
 }
 
-export default VueSilentbox
+export { VueSilentbox as default, single as Single, group as Group, item as Item }
